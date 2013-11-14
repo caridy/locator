@@ -1,5 +1,7 @@
 # @NEXT@
 
+* introducing `locatorObj.parseApplication()` as a shim for `parseBundle()` to parse application using `applicationDirectory` as the folder for the root bundle
+
 # 0.3.6
 
 * introducing `locatorObj.ready` (pr #15) where `locatorObj.ready` is a promise that will be fulfillled or rejected by `parseBundle()`
